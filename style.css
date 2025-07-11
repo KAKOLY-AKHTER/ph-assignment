@@ -18,7 +18,7 @@ body{
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1180px;
     margin: 0 auto; 
 
 }
@@ -229,70 +229,63 @@ text-align: center;
 
 /* ..............fifth section................ */
  
-.fifth-section, .fifth-container{
-    margin-top: 60px;
+.fifth-section{
+    margin-top: 50px;
+    width:100%;
+    padding: 40px 5px;
+   
+}
+
+.fifth-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.form input, .form label{
+    width: 100%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-top: 10px;
+width: 50%;
+}
+
+.form-container>*{
+    width: 100%;
 
 }
-.fifth-title button{
+
+.form-container input, .form-container textarea{
+    border: none;
+   border-radius: 10px;
+  padding: 20px;
+}
+ .form-container label {
+  font-weight: 900;
+  margin-top: 10px;
+ }
+
+.fifth-title h1{
+    font-size: 70px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+} 
+.get-btn{
+    width:100%;
+    margin-top: 10px;
     padding: 20px;
-    width: 100%;
-    gap: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
     
-
-}
-
-
-
-.fifth-title h1{
-    font-size: 40px;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-  
-
-}
-.form-container label {
-    display: block;
-    font: bold;
-
-}
-.form-container  {
-    border-radius: 5px;
-    border: none;
-    width: 100%;
-
-}
-.form-container>*{
-    margin-top: 10px;
-}
-.form input{
-    width: 70%;
-    padding: 15px;
-    border-radius: 5px;
-
-}
-
-.form textarea{
-     width: 70%;
-    padding: 2rem;
-    border-radius: 5px;
-
-  
-   
-}
-
-.get-btn{
-    width: 70%;
-    margin-top: 10px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     
 }
 
@@ -302,6 +295,7 @@ text-align: center;
     footer{
         width: 100%;
         background-color: #FFFFFF;
+        margin-top: 30px;
        
 
     }
