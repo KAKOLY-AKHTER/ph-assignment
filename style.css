@@ -210,36 +210,74 @@ text-align: center;
 }
 
 /* ..............fifth section................ */
-
+ 
 .fifth-section{
     margin-top: 60px;
 }
 .fifth-container{
-    display: flex;
+   display: flex;
     align-items: center;
-    justify-content: space-between;
-    
-  
- 
-    
-   
+   justify-content:space-between;
+    padding: 20px;
+    width: 100%;
+
 }
 .fifth-title h1{
-    font-size: 60px;
-   
+    font-size: 40px;
+    width: 50%;
+
 }
 .form-container label{
     display: block;
     font: bold;
 
 }
-.form-container input, textarea{
-    padding:20px;
+.form-container {
     border-radius: 5px;
     border: none;
-    
-    
-}
- .get-btn{
     width: 100%;
+  
+
 }
+.form input, .form textarea, .get-btn{
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    
+}
+
+    footer{
+        width: 100%;
+        background-color: #FFFFFF;
+        
+    }
+    footer h1{
+        color: #4E47FF;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    footer p{
+         color:  #25243267;
+    }
+    .last-section{
+      text-align: center;
+      padding: 50px 10px;
+    
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    ul li{
+        list-style: none;
+        
+    }
+    ul li a{
+       text-decoration: none;
+          color:  #25243267;
+    }
