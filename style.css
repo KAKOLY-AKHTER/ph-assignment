@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4d47ff1e;
+}
+
+
+.banner {
+    background-image: url(./B12A01-landing-launchpad/Assets/Hero-bg.png);
+    padding: 80px 50px;
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto; 
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.logo {
+    color: #4E47FF;
+    font-size: 30px;
+    font-weight: 700;
+
+
+}
+
+.sign-up,
+.focus-btn, .launch-btn, .free-btn, .get-btn {
+    background-color: #4E47FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    height: 30px;
+    padding: 0px 20px;
+
+}
+
+.text-container {
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-container h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+
+
+/* ,,,,,,,,,,,,,,,img-text-container,,,,,,,,,, */
+
+
+.img-text-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+main .first-section, .second-section{
+    margin-top: 60px;
+}
+.first-section-text>*{
+    margin-top: 15px;
+}
+
+.first-section-text h1{
+    font-size: 50px;
+}
+.first-section p{
+ color: #25243267;
+}
+.first-section-img img{
+    border-radius: 30px;
+}
+
+
+
+/* ...............second section.................. */
+.productive-users-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.second-section{
+    background-color: #4d47ff2b;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    text-align: center;
+    margin-top: 60px;
+   
+}
+.Productive-tittle h1{
+font-weight: 800;
+font-size: 30px;
+}
+
+.active h1{
+    font-size: 50px;
+    font-weight:bolder;
+    color:#4E47FF;
+}
+.active p{
+     color: #25243267;
+}
+
+
+/* .......card-section............. */
+.third-section{
+    margin-top: 60px;
+}
+
+.third-section-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+
+}
+.card-container{
+    margin-top: 10px;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+ 
+}
+
+.card{
+    
+    border-radius: 5px;
+    text-align: start;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+
+    
+}
+.card>*{
+    margin: 10px;
+}
+.love-text>*{
+margin-top: 10px;
+}
+.date h4{
+    color: #25243296 ;
+}
+.date p{
+    color:  #25243267;
+}
+.Reviewer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+
+ 
+}
+.Reviewer img{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+
+}
+
+/* ................fourth-section................. */
+.fourth-section{
+    margin-top: 60px;
+}
+.fourth-container{
+text-align: center;
+}
+
+.content-container>*{
+    margin-top: 10px;
+}
+.content-container p{
+    color:  #25243267;
+}
+.content-container h1{
+    font: bold;
+    font-size: 40px;
+}
+.fourth-container img{
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+/* ..............fifth section................ */
+
+.fifth-section{
+    margin-top: 60px;
+}
+.fifth-container{
+    display: flex;
+   
+
+}
