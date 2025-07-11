@@ -10,7 +10,7 @@ body{
 
 .banner {
     background-image: url(./B12A01-landing-launchpad/Assets/Hero-bg.png);
-    padding: 80px 50px;
+    padding: 50px 30px;
     background-size: cover;
     text-align: center;
     height: 600px;
@@ -47,14 +47,32 @@ nav {
     color: #FFFFFF;
     border: none;
     height: 30px;
-    padding: 0px 20px;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+.sign-up:hover,
+.focus-btn:hover, .launch-btn:hover, .free-btn:hover, .get-btn:hover{
+    background-color: deeppink;
+    color: black;
+}
 
+
+
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .text-container {
     margin-top: 150px;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
 
 }
 
@@ -211,46 +229,81 @@ text-align: center;
 
 /* ..............fifth section................ */
  
-.fifth-section{
+.fifth-section, .fifth-container{
     margin-top: 60px;
+
 }
-.fifth-container{
-   display: flex;
-    align-items: center;
-   justify-content:space-between;
+.fifth-title button{
     padding: 20px;
     width: 100%;
+    gap: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
 }
+
+
+
 .fifth-title h1{
     font-size: 40px;
-    width: 50%;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
 
 }
-.form-container label{
+.form-container label {
     display: block;
     font: bold;
 
 }
-.form-container {
+.form-container  {
     border-radius: 5px;
     border: none;
     width: 100%;
-  
 
 }
-.form input, .form textarea, .get-btn{
-    width: 50%;
-    padding: 20px;
+.form-container>*{
+    margin-top: 10px;
+}
+.form input{
+    width: 70%;
+    padding: 15px;
     border-radius: 5px;
-    flex: 1;
+
+}
+
+.form textarea{
+     width: 70%;
+    padding: 2rem;
+    border-radius: 5px;
+
+  
+   
+}
+
+.get-btn{
+    width: 70%;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+
+/* ..................footer..................... */
+
 
     footer{
         width: 100%;
         background-color: #FFFFFF;
-        
+       
+
     }
     footer h1{
         color: #4E47FF;
